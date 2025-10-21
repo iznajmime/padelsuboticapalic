@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import Cal, { getCalApi } from "@calcom/embed-react";
+import pricingImage from '../assets/image.png';
 
 const BookingPage = () => {
   useEffect(() => {
@@ -31,6 +32,14 @@ const BookingPage = () => {
             />
           </div>
         </main>
+      </div>
+
+      <div className="w-full max-w-md sm:max-w-lg lg:max-w-2xl mt-8">
+        <img
+          src={pricingImage}
+          alt="Cenovnik i akcija"
+          className="w-full h-auto rounded-xl shadow-custom"
+        />
       </div>
     </>
   );
