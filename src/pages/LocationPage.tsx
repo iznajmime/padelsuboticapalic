@@ -26,18 +26,8 @@ const LocationPage = () => {
           <div className="text-center">
             <h2 className="text-3xl font-bold font-display text-gray-800 mb-3">Kontakt</h2>
             <p className="text-xl text-gray-600">
-              <strong>Telefon:</strong> <a href="tel:+381600000000" className="text-[#baa070] hover:underline">+381 6X XXX XXXX</a>
+              <strong>Telefon:</strong> <a href="tel:+381665460000" className="text-[#baa070] hover:underline">+381 66 546 0000</a>
             </p>
-          </div>
-
-          {/* Gallery Section */}
-          <div>
-            <h2 className="text-3xl font-bold font-display text-gray-800 mb-6 text-center">Galerija</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
-              <div className="w-full h-48 sm:h-56 bg-gray-200 rounded-lg border border-gray-300"></div>
-              <div className="w-full h-48 sm:h-56 bg-gray-200 rounded-lg border border-gray-300"></div>
-              <div className="w-full h-48 sm:h-56 bg-gray-200 rounded-lg border border-gray-300"></div>
-            </div>
           </div>
         </div>
       </div>
